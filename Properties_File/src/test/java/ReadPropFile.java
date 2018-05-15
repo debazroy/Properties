@@ -13,8 +13,7 @@ public class ReadPropFile {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
 		Properties prop = new Properties();
-		FileInputStream ip = new FileInputStream("/Users/macbookpro/eclipse-workspace/Properties_File"
-				+ "/src/test/java/config.properties");
+		FileInputStream ip = new FileInputStream("/Users/macbookpro/git/Properties/Properties_File/src/test/java/config.properties");
 		
 		prop.load(ip);
 		
